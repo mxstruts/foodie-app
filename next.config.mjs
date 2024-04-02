@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+	images: {
+		domains: ['ca-central-1.graphassets.com'],
+	},
+}
 
-export default nextConfig;
+export default nextConfig
